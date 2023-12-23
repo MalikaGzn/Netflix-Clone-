@@ -43,6 +43,7 @@ extension HomeViewController: UITableViewDelegate , UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: <#T##IndexPath#>)
         cell.textLabel?.text = "hello world"
+        cell.backgroundColor = .red
         return cell
     }
     
